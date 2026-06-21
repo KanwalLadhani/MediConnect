@@ -5,7 +5,6 @@ MediConnect is a Pakistan-focused doorstep healthcare app that lets patients fin
 ## Current Structure
 
 ```text
-docs/       Product and technical planning documents
 mobile/     Flutter mobile app scaffold
 admin/      Next.js admin panel scaffold
 supabase/   Database migrations and seed data
@@ -37,7 +36,7 @@ npm.cmd install
 npm.cmd run dev
 ```
 
-For Supabase, create a project and follow `docs/07-live-supabase-setup.md`.
+For Supabase, create a project and apply the versioned migrations in `supabase/migrations/`.
 
 ## Quality Gates
 

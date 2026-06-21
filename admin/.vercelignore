@@ -1,0 +1,13 @@
+.env
+.env.*
+.next
+node_modules
+tsconfig.tsbuildinfo
+
+# Local operator and live-test utilities are never deployment inputs.
+scripts/bootstrap-admin.cjs
+scripts/bootstrap-admin-unit-test.cjs
+scripts/live-e2e-test.cjs
+scripts/live-mobile-rls-test.cjs
+scripts/readiness-check.cjs
+scripts/admin-access-unit-test.cjs
